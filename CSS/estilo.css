@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    background: #313D52;
+    
+}
+
+.navegacion {
+    width:98%;
+    margin: 30px auto;
+    background: #2CAEE7;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover {
+    transition: all .3s;
+   background: #41BCF1;
+
+}
+
+.submenu {
+    position: absolute;
+    background: #333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    color: #CE7D35;
+    transition: all .3s;
+    background: #333333;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.encabezado {
+    text-align: center;
+    color: #fff;
+}
+
+.logo {
+    margin: 5px;
+}
+
+.generalidades {
+    background-color: #fff;
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+#listado_ciclo {
+    margin-left: 42%;
+    font-size: 18px;
+}
+
+#listado1 {
+    margin-left: 20px;
+}
+
+.logo_ciclo {
+    padding: 5px 0px;
+}
+
+#listado_CI {
+    margin-left: 42%;
+    font-size: 18px;
+}
+
+#listado_CI1 {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#listado_AIM {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#listado_AIM1 {
+    margin-left: 20px;
+}
+
+#listado_caracteristicas {
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+#listado_tecnicas {
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+#listado_tareas {
+    margin-left: 7%;
+    font-size: 16px;
+}
+
+#listado_hechos {
+    margin-left: 17px;
+    font-size: 18px;
+}
+
+#listado_clases {
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+#listado_clases1 {
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+#listado_metodos {
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+#listado_gen {
+    margin-left: 17%;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
